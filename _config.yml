@@ -1,0 +1,52 @@
+# Site settings
+title: "Resume"
+description: "A resume for Angela McElheron."
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Angela McElheron"
+resume_title:                   "Programmer Analyst"
+
+display_header_contact_info:    "false"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+# resume_section_experience:      true
+# resume_section_education:       true
+# resume_section_projects:        true
+# resume_section_skills:          true
+# resume_section_recognition:     true
+# resume_section_links:           true
+# resume_section_associations:    true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_pdf_url:               "resume.pdf"
+  resume_github_url:            "https://github.com/amcel103"
+  resume_github_print:          "amcel103"
+  resume_linkedin_url:          "https://www.linkedin.com/in/angela-mcelheron/"
+  resume_email_url:             "&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x61;&#x6e;&#x67;&#x69;&#x65;&#x2e;&#x6d;&#x63;&#x65;&#x6c;&#x68;&#x65;&#x72;&#x6f;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;"
+  resume_email_print:           "&#x61;&#x6e;&#x67;&#x69;&#x65;&#x2e;&#x6d;&#x63;&#x65;&#x6c;&#x68;&#x65;&#x72;&#x6f;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;" 
+  resume_website_print:         "angela.mcelheron.ca"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
