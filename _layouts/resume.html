@@ -97,7 +97,6 @@
         {% endfor %}
       </section>
 
-      {% if site.resume_section_recognition %}
       <section class="content-section">
         <header class="section-header">
           <h2>Recognition</h2>
@@ -106,12 +105,11 @@
         {% for recognition in site.data.recognitions %}
         <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
+          <h4 class="resume-item-details">{{ recognition.organization }}</h4>
           <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>
         {% endfor %}
       </section>
-      {% endif %}
 
       {% if site.resume_section_interests %}
       <section class="content-section">
